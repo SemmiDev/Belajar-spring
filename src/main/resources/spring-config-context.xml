@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="mantan1" class="com.belajarJDBC.jdbcTemplate.Kenangan.Mantan">
+        <property name="nama" value="mantan1"/>
+        <property name="levelCantik" value="10"/>
+    </bean>
+
+    <bean id="mantan2" class="com.belajarJDBC.jdbcTemplate.Kenangan.Mantan">
+        <property name="nama" value="mantan2"/>
+        <property name="levelCantik" value="10"/>
+    </bean>
+
+    <bean id="mantan3" class="com.belajarJDBC.jdbcTemplate.Kenangan.Mantan">
+        <property name="nama" value="mantan3"/>
+        <property name="levelCantik" value="10"/>
+    </bean>
+
+    <bean id="mantan4" class="com.belajarJDBC.jdbcTemplate.Kenangan.Mantan">
+        <property name="nama" value="mantan4"/>
+        <property name="levelCantik" value="10"/>
+    </bean>
+</beans>
